@@ -1,0 +1,60 @@
+html {
+	font-size: 62.5%;
+}
+
+header {
+	padding: 1rem 0;
+	background-color: #212121;
+	color: white;		
+}
+
+
+nav {
+	list-style: none;
+	text-align: right;
+	margin-right: 3rem;
+}
+
+header nav ul li {
+	font-family: sans-serif;
+	font-size: 2rem;
+	width: 15rem;
+	cursor: pointer;
+	text-align: left;
+	display: inline-block;
+}
+
+header nav ul li:hover {
+	color: #8be28b;
+}
+
+#dropdown {
+	background-color: #212121;
+	width: 16rem;
+	height: 0;
+	transition: height 0.5s ease-in;
+	position: absolute;
+	left: 133rem;
+	top: 7rem;
+	border-bottom-right-radius: 3%;
+	border-bottom-left-radius: 3%;
+}
+
+.drop-down ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.drop-down ul li {
+	font-family: sans-serif;
+	font-size: 2rem;
+	width: 15rem;
+	cursor: pointer;
+	text-align: center;
+	padding: 2rem 0;
+	color: white;
+	opacity: 0;
+	transition: opacity 0.5s;
+
+}
